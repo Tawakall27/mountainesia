@@ -17,18 +17,6 @@
         app:layout_constraintVertical_bias="0.538"
         app:srcCompat="@drawable/bg3" />
 
-    <ImageView
-        android:id="@+id/imageView30"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.064"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.041"
-        app:srcCompat="@drawable/kembali" />
-
     <TextView
         android:id="@+id/textView27"
         android:layout_width="wrap_content"
@@ -258,12 +246,12 @@
         app:layout_constraintVertical_bias="0.719" />
 
     <Button
-        android:id="@+id/buttonScan2"
+        android:id="@+id/buttonbayar"
         android:layout_width="301dp"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
         android:backgroundTint="@color/hijau"
-        android:text="PESAN TIKET"
+        android:text="BAYAR"
         android:typeface="serif"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

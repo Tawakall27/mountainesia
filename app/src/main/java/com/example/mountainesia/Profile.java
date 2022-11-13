@@ -4,13 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 public class Profile extends AppCompatActivity {
 
-    ImageView back;
+    Button buttonselesai;
 
 
     @Override
@@ -18,10 +19,14 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
-        back = findViewById(R.id.imageView2);
-        back.setOnClickListener(view -> {
-            Intent i = new Intent(Profile.this, Login.class);
-            startActivity(i);
+        buttonselesai = findViewById(R.id.buttonselesai);
+
+        buttonselesai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent buttonselesai = new Intent(Profile.this,Beranda.class);
+                startActivity(buttonselesai);
+            }
         });
     }
 }

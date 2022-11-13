@@ -140,31 +140,16 @@
         app:layout_constraintVertical_bias="0.522" />
 
     <Button
-        android:id="@+id/buttonScan"
+        android:id="@+id/buttonsignin"
         android:layout_width="301dp"
         android:layout_height="56dp"
         android:layout_alignParentBottom="true"
         android:backgroundTint="@color/hijau"
-        android:text="LOGIN"
+        android:text="Sign in"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.614" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="192dp"
-        android:layout_height="34dp"
-        android:text="Already have an account?  Sign In"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:textSize="10dp"
-        android:textStyle="normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.663" />
 </androidx.constraintlayout.widget.ConstraintLayout>

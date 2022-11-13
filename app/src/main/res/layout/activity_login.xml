@@ -10,14 +10,12 @@
         android:id="@+id/imageView3"
         android:layout_width="657dp"
         android:layout_height="904dp"
-        app:srcCompat="@drawable/background"
-        tools:layout_editor_absoluteX="-130dp"
-        tools:layout_editor_absoluteY="0dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.555"/>
+        app:layout_constraintVertical_bias="0.538"
+        app:srcCompat="@drawable/background" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -156,18 +154,33 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="192dp"
-        android:layout_height="34dp"
-        android:text="Don’t have an account?  Sign Up"
+        android:layout_width="127dp"
+        android:layout_height="23dp"
+        android:text="Don’t have an account?"
         android:textAlignment="center"
         android:textColor="@color/black"
         android:textSize="10sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.401"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.677" />
+        app:layout_constraintVertical_bias="0.66" />
+
+    <TextView
+        android:id="@+id/textsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.653" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
